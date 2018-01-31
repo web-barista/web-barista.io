@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<!-- Инструкция для IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Отображать страницу в масштабе 100% -->
+	<meta name="viewport" content="device-width, initial-scale=1">
+	<!-- Нормализация стилей -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+	<!-- Собственные стили -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Подключение веб-шрифтов -->
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Подклюение иконки -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/icons/x-icon.png">
+</head>
+<body>
+	
+	<!-- .........................................
+	
+	HEADER
+	
+	............................................. -->
+		
+	<header>
+		<div class="nav" id="up">
+			<ul  class="navigation__list">
+				<li class="navigation__list-element"><a href="#resume">Резюме</a></li> 
+				<li class="navigation__list-element"><a href="#portfolio">Портфолио</a></li>
+				<li class="navigation__list-element"><a href="#contacts">Контакты</a></li>
+			</ul>
+		</div>
+	
+		<div class="header">
+			<div class="header__title">Гаркуша Александр</div>
+			<div class="header__slogan">Верстка сайтов на HTML и CSS <br>HTML5 CSS3 JS jQuery</div>
+			<div class="header__arrow">
+				<a href="#resume"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</header>
+	<p id="back-top"><a href="#up"><i class="fa fa-arrow-circle-o-up fa-4x share-button" aria-hidden="true"></i></a></p>
+	
+	<!-- .........................................
+	
+	RESUEME
+	
+	............................................. -->
+
+	<section class="resume" id="resume"> 
+		<div class="container">
+			<div class="resume__title">
+				Резюме
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<div class="resume__img">
+						<img class="resume__img-img" src="img/images/image_resume.jpg" alt="images">
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="resume__text">
+						<p>Всем привет, меня зовут Саша и я начинающий web-программист.
+							Мне 20 лет и я учусь в лучшем вузе страны НТУУ КПИ им. Игоря Сикорского на 3 курсе по специальности Computer Science.
+							Ещё на втором курсе столкнулся с web-разработкой, и я сразу понял, чем я хочу заниматься в будущем. Все началось с изучения HTML и CSS на парах, в добавок к различным книгам и множеству видео курсов, потом добавились JS(jQuery), некоторые фреймворки. Так создавались первые проекты, и я получал первый опыт. Чем больше всего нового я изучал, тем больше понимал, сколько ещё всего интересного меня ждёт. И сейчас когда я уже студент старшего курса, я хотел бы войти в какую-нибудь команду, чтобы в разы увеличивать свой опыт и заниматься любимым делом.
+							А здесь файл с моим Резюме, скачай его и подробно почитай о моих навыках.
+							<br><div><a href="doc/Harkusha_Aleksandr.docx" class="resume__button" download>Скачать файл</a></div>
+							<br> А так же смотри далее некоторые роботы с моего портфолио.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<!-- .........................................
+	
+	PORTFOLIO
+	
+	............................................. -->
+
+	<section class="portfolio" id="portfolio">
+		 <div class="container">
+		 <div class="title">
+		 	Портфолио
+		 </div>
+		 <div class="row">
+		 	<!-- Робота в портфолио -->
+		 	<div class="col-4">
+		 		<div class="portfolio-item">
+			 		<div class="portfolio-item__img">
+			 			<img src="img//portfolio/project_ActiveBox.jpg" alt="Макет органика">
+			 		</div>
+			 		<div class="portfolio-item__title">
+			 			<a href="work-activebox.html">Учебный Макет ActiveBox</a>
+			 		</div>
+			 		<div class="portfolio-item__text">
+			 			<p>Верстка одностраничного сайта по PSD макету. Сайт является полностью адаптивным для мобильных устройств. Сверстан с помощью Bootstrap, с использованием препроцессора LESS.</p>
+			 		</div>
+		 		</div>
+		 	</div>
+		 	<!-- // Робота в портфолио -->
+			
+			<!-- Робота в портфолио -->
+		 	<div class="col-4">
+		 		<div class="portfolio-item">
+			 		<div class="portfolio-item__img">
+			 			<img src="img/portfolio/project_mandarin.jpg" alt="Аполло">
+			 		</div>
+			 		<div class="portfolio-item__title">
+			 			<a href="work-mandarin.html">Макет Мандарин</a>
+			 		</div>
+			 		<div class="portfolio-item__text">
+			 			<p>Верстка Landing Page макет Мандарин. Адаптивный сайт, использовался препроцессор LESS, Java Script.</p>
+			 		</div>
+		 		</div>
+		 	</div>
+		 	<!-- // Робота в Landing Page -->
+
+		 	<!-- Робота в портфолио -->
+		 	<div class="col-4">
+		 		<div class="portfolio-item">
+			 		<div class="portfolio-item__img">
+			 			<img src="img/portfolio/project_portfolio.jpg " alt="Макет органика">
+			 		</div>
+			 		<div class="portfolio-item__title">
+			 			<a href="index.html">Личный сайт портфолио</a>
+			 		</div>
+			 		<div class="portfolio-item__text">
+			 			<p>Верстка личного сайта портфолио на котором вы сейчас находитесь.
+			 			Сайт адаптивный на всех мобильных устройствах. Сверстан с помощью препроцессора LESS, с использованием библиотек jQuery. Использовалась своя сетка.</p>
+			 		</div>
+		 		</div>
+		 	</div>
+		 	<!-- // Робота в портфолио -->
+		</div>
+
+		 </div>
+	</section>
+
+	<!-- .........................................
+	
+	FOOTER
+	
+	............................................. -->
+	
+	<footer class="footer" id="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<p class="footer__name">
+						Александр Гаркуша
+					</p>
+					<p>HTML верстка и разработка сайтов</p>
+				</div>
+				<div class="col-4">
+					<p class="footer__social">Мои профили в социальных сетях:</p>
+					<p class="footer__social-icons">
+						<a href="https://vk.com/o_harkusha" target="_blank">
+							<i class="fa fa-vk" aria-hidden="true"></i>
+						</a>
+						<a href="t.me/o_harkusha" target="_blank">
+							<i class="fa fa-telegram" aria-hidden="true"></i>
+						</a>
+						<a href="https://www.facebook.com/aleksandr.harkusha.1" target="_blank">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+						<a href="https://www.instagram.com/o_harkusha/" target="_blank">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+						<a href="https://www.youtube.com/channel/UC7MiTs9PQqb_183nO3zZN1w" target="_blank">
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+						</a>
+					</p>
+				</div>
+				<div class="col-4">
+					<div><a href="t.me/o_harkusha" class="button" target="_blank">связаться в TELEGRAM</a></div>
+					<p>Напишите мне, чтобы заказать или узнать<br> стоимость верстки вашего проекта</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src = "libs/jquery/jquery-2.1.4.min.js"></script>
+	<script src = "libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src = "js/main.js"></script>
+</body>
+</html>
