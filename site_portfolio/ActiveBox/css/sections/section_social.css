@@ -1,0 +1,65 @@
+.col-md-6 {
+  padding-bottom: 15px;
+}
+.benefit__social-img {
+  padding-bottom: 30px;
+}
+.benefit__social--name {
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+.benefit__social--position {
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  color: #ff3333;
+}
+.benefit__social--text {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding-right: 15px;
+  padding-bottom: 53px;
+}
+.benefit__social--social-icon {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.benefit__social--social-icon-border {
+  float: left;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: 1px solid silver;
+  text-align: center;
+  padding-top: 11px;
+}
+.intro__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+.intro__text-title {
+  padding-top: 139px;
+  padding-bottom: 8px;
+}
+.intro__text__full {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.into__text-button {
+  width: 280px;
+  margin-top: 26px;
+  margin-bottom: 100px;
+}

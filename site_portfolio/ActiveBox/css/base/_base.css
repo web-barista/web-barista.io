@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+html {
+  font-size: 10px;
+  line-height: 1.4;
+}
+body {
+  font-size: 1.6rem;
+  /* 10px * 1.6 = 16px */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+* {
+  box-sizing: border-box;
+}
+.section {
+  padding-top: 120px;
+}
+.section__two {
+  padding-top: 124px;
+  padding-bottom: 101px;
+}
+.raleway {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+.raleway-semi-bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.raleway-bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+a {
+  color: #fff;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (min-width: 1170px) {
+  .header__top-wrapper {
+    max-width: 1170px;
+  }
+  .hr {
+    max-width: 1170px;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .hr {
+    width: 100%;
+  }
+}
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (min-width: 992px) {
+  .benefit__footer-title--location {
+    padding-left: 22px;
+  }
+}
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width: 768px) {
+  .header__title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .header__text {
+    font-size: 12px;
+  }
+}
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+/* Custom, iPhone Retina - adaptive styles bofore 320px */

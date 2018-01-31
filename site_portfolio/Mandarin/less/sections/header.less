@@ -1,0 +1,113 @@
+
+.header {
+	background-color: #777;
+	background-image: url(../img/bg/bg-header.jpg);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+	flex-direction: column; 
+}
+
+.header__top-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.header__logo {
+	padding-top: 30px;
+}
+
+.profile-button {
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+	background-color: #FFF;
+	padding: 14px 17px 20px;
+	height: 50px;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 1;
+	color: #000;
+	margin-top: 25px;
+	
+	&:hover, &:focus, &:active {
+		background-color: #3E51B5;
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+
+.a {
+	-webkit-transition: 0.2s ease-out;
+	   -moz-transition: 0.2s ease-out;
+	    -ms-transition: 0.2s ease-out;
+	     -o-transition: 0.2s ease-out;
+	        transition: 0.2s ease-out;
+}
+
+.arrow_down {
+	background-image: url(../img/icons/arrow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 12px;
+	margin-bottom: 18px;
+}
+
+.share-button {
+	background-image: url(../img/icons/share.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50px;
+	height: 50px;
+	margin-right: 35px;
+	margin-bottom: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.navbar-toggle {
+	border-color: 	#fff;
+	background-color: transaprent;
+	margin-top: 23px;
+}
+
+.navbar-toggle .icon-bar {
+	border: 1px solid #fff;
+	// color: red;
+}
+
+.collapse {
+	padding-top: 20px;
+}
+
+.navbar-collapse {
+	// padding-left: 300px;
+	padding-right: 0;
+}
+.navbar {
+	width: 100%;
+	height: auto;
+}
+.navbar-brand {
+	padding: 25px 1px;
+}
+.navbar-nav {
+	float: none;
+	text-align: center;
+}
+
+.navbar-nav li {
+	float: none;
+	display: inline-block;
+}
